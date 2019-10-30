@@ -159,6 +159,10 @@ input {
         text-decoration: none;
         }
     }
+    
+    .fa{
+        color: white !important;
+    }
 }
 .position-absolute2{
     position: absolute;
@@ -169,4 +173,25 @@ input {
         width: 550px;
         height: 450px;
     }
+}
+
+.contact-form1{
+    input {
+        padding:10px;
+          font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px !important;
+          text-decoration: inherit;
+          background-color: #111111;
+          &::placeholder{
+              color: white !important ;
+              font-size: 12px;
+          }
+      }
+      .btn-sm{
+          background-color: #17bee2;
+          color: white;
+          border-radius: 30px;
+      }
 }

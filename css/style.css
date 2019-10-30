@@ -75,11 +75,6 @@ input::placeholder {
   z-index: -1;
 }
 
-.position-absolute .Image_right {
-  width: 550px;
-  height: 450px;
-}
-
 .search-bar {
   border-radius: 35px;
 }
@@ -220,7 +215,7 @@ input::placeholder {
 
 .position-absolute2 {
   position: absolute;
-  bottom: -900px;
+  bottom: -800px;
   right: 100px;
   z-index: -1;
 }
@@ -260,9 +255,89 @@ input::placeholder {
   font-size: 12px;
 }
 
+.contact-form1 input:active {
+  color: #111111 !important;
+}
+
 .contact-form1 .btn-sm {
   background-color: #17bee2;
   color: white;
   border-radius: 30px;
+}
+
+.position-absolute3 {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  z-index: -1;
+}
+
+.Search {
+  font-family: ProximaNova;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1.06;
+  color: #000000;
+}
+
+.Search-Result {
+  font-family: ProximaNova;
+  line-height: 1.39;
+  color: #060606;
+}
+
+.filter_section .Filter {
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.39;
+  color: #060606;
+}
+
+.filter_section .Select {
+  font-family: ProximaNova;
+  font-size: 14px;
+  color: #000000;
+}
+
+.filter_section .fa-map-marker {
+  color: #17bee2 !important;
+}
+
+.filter_section .Destination {
+  font-family: ProximaNova;
+  font-size: 14px;
+  color: #a5a5a5 !important;
+}
+
+.filter_section .fas {
+  color: #a5a5a5 !important;
+}
+
+.filter_section .date {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.filter_section .Title {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.79;
+  color: #060606;
+}
+
+.filter_section .Clear {
+  font-family: ProximaNova;
+  font-size: 13px;
+  color: #17bee2;
+}
+
+.filter_section .Lorem-ipsum {
+  font-family: ProximaNova;
+  font-size: 14px;
+  color: #a5a5a5;
 }
 /*# sourceMappingURL=style.css.map */

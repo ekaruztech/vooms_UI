@@ -50,10 +50,6 @@ input {
       top: -10px;
       right: 0;
       z-index: -1;
-      .Image_right{
-          width: 550px;
-          height: 450px;
-      }
   }
   .search-bar{
       border-radius: 35px;
@@ -166,7 +162,7 @@ input {
 }
 .position-absolute2{
     position: absolute;
-    bottom: -900px;
+    bottom: -800px;
     right: 100px;
     z-index: -1;
     .Image_right{
@@ -188,10 +184,81 @@ input {
               color: white !important ;
               font-size: 12px;
           }
+          &:active{
+              color: #111111 !important;
+          }
       }
       .btn-sm{
           background-color: #17bee2;
           color: white;
           border-radius: 30px;
       }
+}
+
+.position-absolute3{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    z-index: -1;
+}
+.Search{
+    font-family: ProximaNova;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.06;
+    color: #000000;
+}
+.Search-Result{
+    font-family: ProximaNova;
+    line-height: 1.39;
+    color: #060606;
+}
+.filter_section{
+
+.Filter{
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.39;
+    color: #060606;
+}
+.Select{
+    font-family: ProximaNova;
+    font-size: 14px;
+    color: #000000;
+}
+.fa-map-marker{
+    color: #17bee2 !important;
+}
+.Destination{
+    font-family: ProximaNova;
+    font-size: 14px;
+    color: #a5a5a5 !important;
+}
+.fas{
+    color: #a5a5a5 !important;
+}
+.date{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+.Title{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.79;
+    color: #060606;
+}
+.Clear{
+    font-family: ProximaNova;
+    font-size: 13px;
+    color: #17bee2;
+}
+.Lorem-ipsum{
+    font-family: ProximaNova;
+    font-size: 14px;
+    color: #a5a5a5;
+}
 }

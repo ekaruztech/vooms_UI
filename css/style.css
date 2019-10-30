@@ -1,0 +1,228 @@
+body {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: 15px !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.login-nav {
+  width: 80px !important;
+  border-radius: 18px;
+  color: #17bee2 !important;
+  background-color: white;
+  border: 2px solid #17bee2 !important;
+}
+
+.signup-nav {
+  width: 80px !important;
+  color: white;
+  border-radius: 18px;
+  background-color: #17bee2 !important;
+}
+
+.welcome-title {
+  font-family: ProximaNova;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.Sell-bus-travel-tick {
+  font-family: ProximaNova;
+  font-size: 25px;
+  line-height: 1.39;
+  color: #060606;
+}
+
+input {
+  padding: 10px;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #17bee2;
+}
+
+input::-webkit-input-placeholder {
+  color: #17bee2 !important;
+  font-size: 15px;
+}
+
+input:-ms-input-placeholder {
+  color: #17bee2 !important;
+  font-size: 15px;
+}
+
+input::-ms-input-placeholder {
+  color: #17bee2 !important;
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: #17bee2 !important;
+  font-size: 15px;
+}
+
+.position-absolute {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  z-index: -1;
+}
+
+.position-absolute .Image_right {
+  width: 550px;
+  height: 450px;
+}
+
+.search-bar {
+  border-radius: 35px;
+}
+
+.Find-by-tags {
+  font-family: ProximaNova;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 2.13;
+  color: #000000;
+}
+
+.fa-search {
+  color: #17bee2;
+}
+
+.find-tag-btn {
+  color: grey !important;
+  font-weight: 500;
+  border: 1px solid grey !important;
+  border-radius: 30px !important;
+}
+
+.find-tag-btn:hover {
+  color: #17bee2 !important;
+  font-weight: 500;
+  border: 1px solid #17bee2 !important;
+  border-radius: 30px !important;
+}
+
+.See-the-best {
+  font-family: ProximaNova;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 2.13;
+  color: #000000;
+}
+
+.fas {
+  color: #c0bfbf !important;
+}
+
+.Orange-Juice {
+  font-family: Appetite !important;
+  font-size: 27px !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+  line-height: 1.11 !important;
+  text-align: center !important;
+  color: #bbbbbb !important;
+}
+
+.Orange-Juice1 {
+  font-family: ProximaNova !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  color: #000000 !important;
+}
+
+.Sell-bus-travel {
+  font-family: ProximaNova !important;
+  font-size: 14px !important;
+  line-height: 1.43 !important;
+  text-align: center !important;
+  color: #898484 !important;
+}
+
+.fa-paper-plane {
+  color: #17bee2 !important;
+}
+
+.position-absolute1 {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  z-index: -1;
+}
+
+.position-absolute1 .Image_right {
+  width: 550px;
+  height: 450px;
+}
+
+.Contact-Us {
+  font-family: ProximaNova;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.06;
+  color: #000000;
+}
+
+.contact-form input {
+  padding: 10px;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: gray;
+}
+
+.contact-form input::-webkit-input-placeholder {
+  color: gray !important;
+  font-size: 15px;
+}
+
+.contact-form input:-ms-input-placeholder {
+  color: gray !important;
+  font-size: 15px;
+}
+
+.contact-form input::-ms-input-placeholder {
+  color: gray !important;
+  font-size: 15px;
+}
+
+.contact-form input::placeholder {
+  color: gray !important;
+  font-size: 15px;
+}
+
+.contact-form .fa-send {
+  color: #17bee2;
+}
+
+.footer {
+  background-color: #111111;
+}
+
+.footer .footer-links a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.position-absolute2 {
+  position: absolute;
+  bottom: -900px;
+  right: 100px;
+  z-index: -1;
+}
+
+.position-absolute2 .Image_right {
+  width: 550px;
+  height: 450px;
+}
+/*# sourceMappingURL=style.css.map */

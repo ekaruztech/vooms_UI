@@ -50,6 +50,9 @@ input {
       top: -10px;
       right: 0;
       z-index: -1;
+      .image-right{
+          width: 100%;
+      }
   }
   .search-bar{
       border-radius: 35px;
@@ -162,12 +165,12 @@ input {
 }
 .position-absolute2{
     position: absolute;
-    bottom: -800px;
+    bottom: -850px;
     right: 100px;
     z-index: -1;
     .Image_right{
         width: 550px;
-        height: 450px;
+        height: 550px;
     }
 }
 
@@ -260,5 +263,25 @@ input {
     font-family: ProximaNova;
     font-size: 14px;
     color: #a5a5a5;
+}
+.Dolor-Sit-amet{
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    color: #080808;
+}
+.Lorem-ipsum-Copy{
+    font-family: ProximaNova;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+.search-button{
+    width: 120px;
+    color: white;
+    background-color: #17bee2;
+    border-radius: 35px;
+}
+.fa-search{
+    color: white;
 }
 }

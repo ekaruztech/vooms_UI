@@ -75,11 +75,6 @@ input::placeholder {
   z-index: -1;
 }
 
-.position-absolute .Image_right {
-  width: 550px;
-  height: 450px;
-}
-
 .search-bar {
   border-radius: 35px;
 }
@@ -264,5 +259,52 @@ input::placeholder {
   background-color: #17bee2;
   color: white;
   border-radius: 30px;
+}
+
+.container-center {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-center .center-road img {
+  width: 100%;
+}
+
+.comp-logo img {
+  max-width: 140px;
+  position: absolute;
+  top: -90px;
+  left: 25px;
+  z-index: 1;
+}
+
+.sprinted h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sp-1 {
+  font-size: 10px;
+  color: #060606;
+}
+
+.bg-gray {
+  background: #f3f3f3;
+}
+
+.btn-sm {
+  background-color: #17bee2;
+  color: white;
+  border-radius: 30px;
+}
+
+.btn-align {
+  width: 30px;
+  display: block;
+  margin-left: auto;
 }
 /*# sourceMappingURL=style.css.map */

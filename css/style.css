@@ -211,6 +211,7 @@ input::placeholder {
 .footer .footer-links a {
   color: white !important;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .footer .fa {
@@ -229,6 +230,11 @@ input::placeholder {
   height: 550px;
 }
 
+.footer-logo {
+  width: 150px;
+  margin-top: 37px !important;
+}
+
 .contact-form1 input {
   padding: 10px;
   font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
@@ -241,22 +247,22 @@ input::placeholder {
 
 .contact-form1 input::-webkit-input-placeholder {
   color: white !important;
-  font-size: 12px;
+  font-size: 10.2px;
 }
 
 .contact-form1 input:-ms-input-placeholder {
   color: white !important;
-  font-size: 12px;
+  font-size: 10.2px;
 }
 
 .contact-form1 input::-ms-input-placeholder {
   color: white !important;
-  font-size: 12px;
+  font-size: 10.2px;
 }
 
 .contact-form1 input::placeholder {
   color: white !important;
-  font-size: 12px;
+  font-size: 10.2px;
 }
 
 .contact-form1 input:active {

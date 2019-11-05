@@ -156,6 +156,7 @@ input {
         a{
         color: white !important;
         text-decoration: none;
+        font-size: 14px;
         }
     }
     
@@ -173,6 +174,10 @@ input {
         height: 550px;
     }
 }
+.footer-logo{
+    width: 150px;
+    margin-top: 37px !important;
+}
 
 .contact-form1{
     input {
@@ -185,7 +190,7 @@ input {
           background-color: #111111;
           &::placeholder{
               color: white !important ;
-              font-size: 12px;
+              font-size: 10.2px;
           }
           &:active{
               color: #111111 !important;
